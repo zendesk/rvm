@@ -23,8 +23,8 @@ builtin cd "$rvm_path/src"
 
 [[ -d "$PWD/.rvm/" ]] && "$PWD/.rvm"
 
-git_url="git://github.com/wayneeseguin/rvm.git"
-https_url="https://github.com/wayneeseguin/rvm.git"
+git_url="git://github.com/zendesk/rvm.git"
+https_url="https://github.com/zendesk/rvm.git"
 
 if ! git clone "$git_url" ; then
 

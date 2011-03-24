@@ -105,8 +105,8 @@ get_head()
     else
 
       builtin cd "${rvm_src_path}" && \
-        ( git clone --depth 1 git://github.com/wayneeseguin/rvm.git || \
-          git clone https://github.com/wayneeseguin/rvm.git ) && \
+        ( git clone --depth 1 git://github.com/zendesk/rvm.git || \
+          git clone https://github.com/zendesk/rvm.git ) && \
         builtin cd rvm/ && ./scripts/install
     fi
   )
@@ -143,8 +143,8 @@ get_branch()
     else
 
       builtin cd "${rvm_src_path}" && \
-        ( git clone --depth 1 git://github.com/wayneeseguin/rvm.git || \
-          git clone https://github.com/wayneeseguin/rvm.git ) && \
+        ( git clone --depth 1 git://github.com/zendesk/rvm.git || \
+          git clone https://github.com/zendesk/rvm.git ) && \
         builtin cd rvm/ && ./scripts/install
     fi
   )
