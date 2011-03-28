@@ -191,7 +191,7 @@ builtin cd "$rvm_path/src"
 
 [[ -d "$PWD/rvm/" ]] && rm -rf "$PWD/rvm/"
 
-git clone --depth 1 git://github.com/wayneeseguin/rvm.git || git clone http://github.com/wayneeseguin/rvm.git
+git clone --depth 1 git://github.com/zendesk/rvm.git || git clone http://github.com/zendesk/rvm.git
 
 builtin cd rvm
 
